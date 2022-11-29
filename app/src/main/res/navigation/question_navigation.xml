@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/question_navigation"
+    app:startDestination="@id/question1">
+
+    <fragment
+        android:id="@+id/question1"
+        android:name="com.example.avaliador_restaurantes.fragments.question1.Question1"
+        android:label="fragment_question1"
+        tools:layout="@layout/fragment_question1" >
+        <action
+            android:id="@+id/action_question1_to_question2"
+            app:destination="@id/question2" />
+        <argument
+            android:name="q1"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/question2"
+        android:name="com.example.avaliador_restaurantes.fragments.question2.Question2"
+        android:label="fragment_question2"
+        tools:layout="@layout/fragment_question2" >
+        <action
+            android:id="@+id/action_question2_to_question3"
+            app:destination="@id/question3" />
+        <action
+            android:id="@+id/action_question2_to_question1"
+            app:destination="@id/question1" />
+        <argument android:name="q1"
+            app:argType="integer" />
+        <argument
+            android:name="q2"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/question3"
+        android:name="com.example.avaliador_restaurantes.fragments.question3.Question3"
+        android:label="fragment_question3"
+        tools:layout="@layout/fragment_question3" >
+        <action
+            android:id="@+id/action_question3_to_question4"
+            app:destination="@id/question4" />
+        <action
+            android:id="@+id/action_question3_to_question2"
+            app:destination="@id/question2" />
+        <argument android:name="q1"
+            app:argType="integer" />
+        <argument
+            android:name="q2"
+            app:argType="integer" />
+        <argument
+            android:name="q3"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/question4"
+        android:name="com.example.avaliador_restaurantes.fragments.question4.Question4"
+        android:label="fragment_question4"
+        tools:layout="@layout/fragment_question4" >
+        <action
+            android:id="@+id/action_question4_to_question5"
+            app:destination="@id/question5" />
+        <action
+            android:id="@+id/action_question4_to_question3"
+            app:destination="@id/question3" />
+        <argument android:name="q1"
+            app:argType="integer" />
+        <argument
+            android:name="q2"
+            app:argType="integer" />
+        <argument
+            android:name="q3"
+            app:argType="integer" />
+        <argument
+            android:name="q4"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/question5"
+        android:name="com.example.avaliador_restaurantes.fragments.question5.Question5"
+        android:label="fragment_question5"
+        tools:layout="@layout/fragment_question5" >
+        <action
+            android:id="@+id/action_question5_to_question6"
+            app:destination="@id/question6" />
+        <action
+            android:id="@+id/action_question5_to_question4"
+            app:destination="@id/question4" />
+        <argument
+            android:name="q1"
+            app:argType="integer" />
+        <argument
+            android:name="q2"
+            app:argType="integer" />
+        <argument
+            android:name="q3"
+            app:argType="integer" />
+        <argument
+            android:name="q4"
+            app:argType="integer" />
+        <argument
+            android:name="q5"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/question6"
+        android:name="com.example.avaliador_restaurantes.fragments.question6.Question6"
+        android:label="fragment_question6"
+        tools:layout="@layout/fragment_question6" >
+        <action
+            android:id="@+id/action_question6_to_question5"
+            app:destination="@id/question5" />
+        <argument
+            android:name="q1"
+            app:argType="integer" />
+        <argument
+            android:name="q2"
+            app:argType="integer" />
+        <argument
+            android:name="q3"
+            app:argType="integer" />
+        <argument
+            android:name="q4"
+            app:argType="integer" />
+        <argument
+            android:name="q5"
+            app:argType="integer" />
+        <argument
+            android:name="q6"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+</navigation>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "744359590511",
+    "project_id": "restaurantavaliator",
+    "storage_bucket": "restaurantavaliator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744359590511:android:53db2f1599a79cd5b32b9a",
+        "android_client_info": {
+          "package_name": "com.example.avaliador_restaurantes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744359590511-q3ph7f6tndqug8s4sqif6de3gvbqt1f1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.avaliador_restaurantes",
+            "certificate_hash": "7ef423114b643003308c9329dcfb804484a36aa7"
+          }
+        },
+        {
+          "client_id": "744359590511-03tvm9vod39cahg5eji3nhdsc506nedt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyGgCuHkmTZSybLJ348WSYSnP49Ffjg_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744359590511-03tvm9vod39cahg5eji3nhdsc506nedt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

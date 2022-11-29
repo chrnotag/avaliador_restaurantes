@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">avaliador_restaurantes</string>
+    <string name="no_permission">Permissão não condedida</string>
+</resources>
